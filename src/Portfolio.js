@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Mail, Phone, Linkedin, Github, ExternalLink, Menu, X, Code, Database, Cloud, Briefcase, User, GraduationCap } from 'lucide-react';
+import { Mail, Phone, Linkedin, ExternalLink, Menu, X, Code, Database, Cloud, Briefcase, User, GraduationCap } from 'lucide-react';
 import GobinathImage from './assets/Gobinath.png'; // Adjust the path if necessary
 
 const Portfolio = () => {
