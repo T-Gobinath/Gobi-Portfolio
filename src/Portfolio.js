@@ -49,8 +49,6 @@ const Portfolio = () => {
             <div className="text-2xl font-bold text-white">
               Gobinath<span className="text-purple-400">.</span>
             </div>
-            
-            {/* Desktop Menu */}
             <div className="hidden md:flex space-x-8">
               {['Home', 'About', 'Skills', 'Education', 'Projects', 'Contact'].map((item) => (
                 <button
@@ -64,8 +62,6 @@ const Portfolio = () => {
                 </button>
               ))}
             </div>
-
-            {/* Mobile Menu Button */}
             <button
               className="md:hidden text-white"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -73,8 +69,6 @@ const Portfolio = () => {
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
-
-          {/* Mobile Menu */}
           {isMenuOpen && (
             <div className="md:hidden mt-4 pb-4">
               {['Home', 'About', 'Skills', 'Education', 'Projects', 'Contact'].map((item) => (
